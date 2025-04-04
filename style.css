@@ -1,0 +1,165 @@
+.about-us {
+    padding: 60px 0;
+    background-color: #f7f7f7;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-heading h2 {
+    font-size: 2.5em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.section-divider {
+    width: 60px;
+    height: 3px;
+    background-color: #4CAF50;
+    margin: 0 auto;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.intro h3 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.what-we-do {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.what-we-do h3 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 30px;
+    justify-items: center;
+}
+
+.feature {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.feature:hover {
+    transform: translateY(-10px);
+}
+
+.feature svg {
+    margin-bottom: 15px;
+    fill: #4CAF50;
+}
+
+.feature h4 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.feature p {
+    font-size: 1em;
+    color: #666;
+}
+
+.why-choose-us {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.why-choose-us h3 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.why-choose-us ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2em;
+    color: #666;
+    text-align: left;
+    display: inline-block;
+    max-width: 800px;
+}
+
+.why-choose-us ul li {
+    margin-bottom: 10px;
+}
+
+.cta {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.cta h3 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.cta button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta button:hover {
+    background-color: #45a049;
+}
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.footer p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.coming-soon {
+    margin-top: 20px;
+}
+
+.coming-soon h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#countdown {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffcc00;
+}
